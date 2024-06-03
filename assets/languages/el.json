@@ -1,0 +1,40 @@
+{
+  "header": {
+    "aboutMe": "About Me",
+    "education": "Education",
+    "workExperience": "Work Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "hobbies": "Hobbies"
+  },
+  "name": "Nasir Khan",
+  "aboutMeText": "Hi, I'm Nasir Khan, a .NET developer with over 15 years of experience in software development. I specialize in creating robust and scalable web applications.",
+  "education": {
+    "education1": "Bachelor of Science in Computer Science",
+    "education1School": "XYZ University",
+    "education2": "Master of Science in Software Engineering",
+    "education2School": "ABC University"
+  },
+  "work": {
+    "work1": "Senior .NET Developer",
+    "work1Company": "Company A - 2015 to Present",
+    "work1Description": "Developed and maintained web applications using ASP.NET, C#, and SQL Server.",
+    "work2": "Software Engineer",
+    "work2Company": "Company B - 2008 to 2015",
+    "work2Description": "Worked on various software projects, including e-commerce platforms and enterprise solutions."
+  },
+  "projects": {
+    "project1": "E-Commerce Platform",
+    "project1Description": "Developed a robust e-commerce platform using ASP.NET Core, enabling seamless shopping experiences with integrated payment gateways.",
+    "project2": "Inventory Management System",
+    "project2Description": "Built an inventory management system with real-time tracking and automated restocking features using ASP.NET MVC and SQL Server.",
+    "project3": "Healthcare Portal",
+    "project3Description": "Created a healthcare portal for patient management, appointment scheduling, and telemedicine using .NET Framework and Angular.",
+    "project4": "Financial Dashboard",
+    "project4Description": "Developed a financial dashboard with real-time analytics and reporting features using .NET Core and React.js."
+  },
+  "skills": ["C#", "ASP.NET", "SQL Server", "JavaScript", "HTML "],
+  "hobbies": ["Reading technical blogs", "Playing chess", "Travelling"],
+  "cookieConsent": "This website uses cookies to ensure you get the best experience.",
+  "acceptCookies": "Accept"
+}

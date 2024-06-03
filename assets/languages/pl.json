@@ -1,0 +1,40 @@
+{
+  "header": {
+    "aboutMe": "O mnie",
+    "education": "Edukacja",
+    "workExperience": "Doświadczenie zawodowe",
+    "projects": "Projekty",
+    "skills": "Umiejętności",
+    "hobbies": "Hobby"
+  },
+  "name": "Nasir Khan",
+  "aboutMeText": "Cześć, jestem Nasir Khan, deweloper .NET z ponad 15-letnim doświadczeniem w tworzeniu oprogramowania. Specjalizuję się w tworzeniu solidnych i skalowalnych aplikacji internetowych.",
+  "education": {
+    "education1": "Licencjat z informatyki",
+    "education1School": "Uniwersytet XYZ",
+    "education2": "Magister inżynierii oprogramowania",
+    "education2School": "Uniwersytet ABC"
+  },
+  "work": {
+    "work1": "Starszy deweloper .NET",
+    "work1Company": "Firma A - od 2015 do teraz",
+    "work1Description": "Tworzenie i utrzymywanie aplikacji internetowych za pomocą ASP.NET, C# i SQL Server.",
+    "work2": "Inżynier oprogramowania",
+    "work2Company": "Firma B - od 2008 do 2015",
+    "work2Description": "Praca nad różnymi projektami programistycznymi, w tym platformami e-commerce i rozwiązaniami dla przedsiębiorstw."
+  },
+  "projects": {
+    "project1": "Platforma e-commerce",
+    "project1Description": "Stworzenie solidnej platformy e-commerce za pomocą ASP.NET Core, umożliwiającej bezproblemowe zakupy z zintegrowanymi bramkami płatniczymi.",
+    "project2": "System zarządzania zapasami",
+    "project2Description": "Stworzenie systemu zarządzania zapasami z funkcjami śledzenia w czasie rzeczywistym i automatycznego uzupełniania zapasów za pomocą ASP.NET MVC i SQL Server.",
+    "project3": "Portal opieki zdrowotnej",
+    "project3Description": "Stworzenie portalu opieki zdrowotnej do zarządzania pacjentami, umawiania wizyt i telemedycyny za pomocą .NET Framework i Angular.",
+    "project4": "Pulpit finansowy",
+    "project4Description": "Stworzenie pulpitu finansowego z funkcjami analizy i raportowania w czasie rzeczywistym za pomocą .NET Core i React.js."
+  },
+  "skills": ["C#", "ASP.NET", "SQL Server", "JavaScript", "HTML "],
+  "hobbies": ["Czytanie blogów technicznych", "Gra w szachy", "Podróżowanie"],
+  "cookieConsent": "Ta strona używa plików cookie, aby zapewnić najlepsze wrażenia.",
+  "acceptCookies": "Zaakceptuj"
+}

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nasir Khan's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav aria-label="Main navigation">
+        <div class="logo">Nasir Khan</div>
+        <ul class="nav-links" role="menu">
+          <li role="none"><a role="menuitem" href="#about-me">About Me</a></li>
+          <li role="none">
+            <a role="menuitem" href="#education">Education</a>
+          </li>
+          <li role="none">
+            <a role="menuitem" href="#work">Work Experience</a>
+          </li>
+          <li role="none"><a role="menuitem" href="#projects">Projects</a></li>
+          <li role="none"><a role="menuitem" href="#skills">Skills</a></li>
+          <li role="none"><a role="menuitem" href="#hobbies">Hobbies</a></li>
+        </ul>
+        <div class="dropdown">
+          <button
+            class="dropbtn"
+            id="selected-language"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Language <i class="fa fa-caret-down"></i>
+          </button>
+          <div
+            class="dropdown-content"
+            role="menu"
+            aria-label="Language selection"
+          >
+            <a role="menuitem" href="#" id="english-btn">English</a>
+            <a role="menuitem" href="#" id="polish-btn">Polski</a>
+          </div>
+        </div>
+        <div class="burger" aria-label="Menu" role="button" tabindex="0">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About Section -->
+      <section id="about-me">
+        <h1>About Me</h1>
+        <div class="about-container">
+          <img
+            src="./assets/images/avatar.png"
+            alt="Portrait of Nasir Khan"
+            class="profile-img"
+          />
+          <div class="about-text">
+            <p>
+              Hi, I'm Nasir Khan, a .NET developer with over 15 years of
+              experience in software development. I specialize in creating
+              robust and scalable web applications.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section id="education">
+        <h1>Education</h1>
+        <div class="education-container">
+          <div class="education-item">
+            <img
+              src="./assets/images/education1.png"
+              alt="XYZ University logo"
+              class="education-img"
+            />
+            <div class="education-info">
+              <h2>Bachelor of Science in Computer Science</h2>
+              <p>XYZ University</p>
+            </div>
+          </div>
+          <div class="education-item">
+            <img
+              src="./assets/images/education2.jpg"
+              alt="ABC University logo"
+              class="education-img"
+            />
+            <div class="education-info">
+              <h2>Master of Science in Software Engineering</h2>
+              <p>ABC University</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Work Experience Section -->
+      <section id="work">
+        <h1>Work Experience</h1>
+        <div class="work-container">
+          <div class="work-item">
+            <img
+              src="./assets/images/work1.png"
+              alt="Company A logo"
+              class="work-img"
+            />
+            <div class="work-info">
+              <h2>Senior .NET Developer</h2>
+              <p class="company">Company A - 2015 to Present</p>
+              <p class="description">
+                Developed and maintained web applications using ASP.NET, C#, and
+                SQL Server.
+              </p>
+            </div>
+          </div>
+          <div class="work-item">
+            <img
+              src="./assets/images/work2.JPG"
+              alt="Company B logo"
+              class="work-img"
+            />
+            <div class="work-info">
+              <h2>Software Engineer</h2>
+              <p class="company">Company B - 2008 to 2015</p>
+              <p class="description">
+                Worked on various software projects, including e-commerce
+                platforms and enterprise solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <h1>Projects</h1>
+        <div class="projects-container">
+          <div class="project-item">
+            <img
+              src="./assets/images/project1.jpg"
+              alt="Screenshot of E-Commerce Platform"
+              class="project-img"
+            />
+            <div class="project-info">
+              <h2>E-Commerce Platform</h2>
+              <p class="description">
+                Developed a robust e-commerce platform using ASP.NET Core,
+                enabling seamless shopping experiences with integrated payment
+                gateways.
+              </p>
+            </div>
+          </div>
+          <div class="project-item">
+            <img
+              src="./assets/images/project2.jpg"
+              alt="Screenshot of Inventory Management System"
+              class="project-img"
+            />
+            <div class="project-info">
+              <h2>Inventory Management System</h2>
+              <p class="description">
+                Built an inventory management system with real-time tracking and
+                automated restocking features using ASP.NET MVC and SQL Server.
+              </p>
+            </div>
+          </div>
+          <div class="project-item">
+            <img
+              src="./assets/images/project3.jpg"
+              alt="Screenshot of Healthcare Portal"
+              class="project-img"
+            />
+            <div class="project-info">
+              <h2>Healthcare Portal</h2>
+              <p class="description">
+                Created a healthcare portal for patient management, appointment
+                scheduling, and telemedicine using .NET Framework and Angular.
+              </p>
+            </div>
+          </div>
+          <div class="project-item">
+            <img
+              src="./assets/images/project4.jpg"
+              alt="Screenshot of Financial Dashboard"
+              class="project-img"
+            />
+            <div class="project-info">
+              <h2>Financial Dashboard</h2>
+              <p class="description">
+                Developed a financial dashboard with real-time analytics and
+                reporting features using .NET Core and React.js.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills">
+        <h1>Skills</h1>
+        <div class="skills-container">
+          <div class="skill-item">
+            <i class="fab fa-cuttlefish" aria-hidden="true"></i>
+            <p>C#</p>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-asymmetrik" aria-hidden="true"></i>
+            <p>ASP.NET</p>
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-database" aria-hidden="true"></i>
+            <p>SQL Server</p>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-js-square" aria-hidden="true"></i>
+            <p>JavaScript</p>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-html5" aria-hidden="true"></i>
+            <p>HTML & CSS</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Hobbies Section -->
+      <section id="hobbies">
+        <h1>Hobbies</h1>
+        <div class="hobbies-container">
+          <div class="hobby-item">
+            <div class="icon">
+              <i class="fas fa-book" aria-hidden="true"></i>
+            </div>
+            <p>Reading technical blogs</p>
+          </div>
+          <div class="hobby-item">
+            <div class="icon">
+              <i class="fas fa-chess" aria-hidden="true"></i>
+            </div>
+            <p>Playing chess</p>
+          </div>
+          <div class="hobby-item">
+            <div class="icon">
+              <i class="fas fa-plane" aria-hidden="true"></i>
+            </div>
+            <p>Travelling</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Nasir Khan</p>
+      <div class="social-media">
+        <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://www.github.com" target="_blank" aria-label="GitHub"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://www.twitter.com" target="_blank" aria-label="Twitter"
+          ><i class="fab fa-twitter"></i
+        ></a>
+      </div>
+      <div id="cookie-consent">
+        <p>This website uses cookies to ensure you get the best experience.</p>
+        <button id="accept-cookies">Accept</button>
+        <button id="decline-cookies">Decline</button>
+      </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
